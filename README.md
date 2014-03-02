@@ -5,6 +5,8 @@ Akka IO library in scala for serial ports based on rxtx.
 ## Usage
 
     libraryDependencies += "ch.inventsoft.akka" %% "rxtx-akka-io" % "1.0.2"
+    
+    resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
 To connect use (in an actor):
 
